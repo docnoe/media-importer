@@ -1,0 +1,22 @@
+{
+  "name": "media-importer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "import only media in a smart way",
+  "main": "copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg -t linux,win ."
+  },
+  "bin": {
+    "media-import": "copy.js"
+  },
+  "author": "Johannes Noe",
+  "license": "MIT",
+  "dependencies": {
+    "globby": "^13.1.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.7.0"
+  }
+}
